@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container{
+            background-color: beige;
+            height: 455px;
+
+        }
+        .box{
+            border: 2px solid black;
+            display: inline-block;
+            transform: translate(134px, 56px) ;
+            transform-origin:0 ;
+            /* transform: scaleX(2) scaleY(3); */
+            /* transform: scaleX(2); 
+            transform: scaleX(5);
+            transform: skew(0deg, 10deg);
+             */
+
+            /* transform matrix is used to give all above properties in a single line , check mdn reference to learn transform matrix */
+
+            transform: rotateZ(82deg);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/harsh.jpg" alt="" height="150px">
+        </div>
+</div>
+</body>
+</html>

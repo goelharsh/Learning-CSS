@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+
+        } */
+        ul{
+            background-color: red;
+        }
+        li {
+            /* display: inline; */
+            list-style: square inside url(/harsh.jpg);
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid red;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 80vh;
+            width: 50vw;
+            margin: auto;
+            padding: 0px 40px;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            /* position: relative; */
+            /* absolute me jo box hai vo apne non static parent ke hisab se adjust krega jo ki feelhal html hai */
+            position: absolute;    
+        }
+
+        .box2 {
+            height: 200px;
+            width: 200px;
+            background-color: greenyellow;
+        }
+        /* body{
+            /* position: fixed;
+            height: 44444px; */
+        /* } */ 
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>about</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae sequi, iste tenetur odit culpa praesentium sit
+            ipsa, tempora possimus incidunt minus sunt ipsam nemo. Provident ex mollitia numquam autem eos voluptate.
+            Officia, eaque eveniet.</p>
+        <div class="box">I am a box</div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde perferendis, similique incidunt
+            itaque culpa est architecto id dolorem odit omnis nesciunt maiores aspernatur sequi. Neque eveniet eum in
+            laborum fugit quam esse odio quidem.</div>
+    </div>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Oranges</li>
+    </ul>
+</body>
+
+</html>

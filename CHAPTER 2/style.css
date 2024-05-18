@@ -1,0 +1,14 @@
+*{
+    /* m0+p0  shortcut method */
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background: rgb(123, 255, 0);
+    height: 334px;
+    color: white;
+}
+.green{
+    background-color: rgba(0, 98, 128, 0.342);
+    color: aqua;
+}

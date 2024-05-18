@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+
+        /* em unit se hum log ek particular ko resize kr payenge agr krna chahte hainn to
+        rem unit se hum ek pure html element ko resize kr payenge */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            /* font-size:4px ; */
+            background-color:red;
+            
+        }
+        .box1{
+            /* font-size: 3rem; */
+            background-color: red;
+        }
+        .box2{
+            background-color: aqua;
+            /* 50vw and 50 vh likhne se kya hoga ki ho koi bhi device me website chlegi uski adhi width and height hmara div lelega */
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This s a paragraph</p>
+        <div class="box1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, porro debitis vitae odit mollitia ullam fuga aperiam modi eligendi voluptas velit excepturi at consequatur fugiat reiciendis consequuntur quos? Similique cupiditate modi deserunt adipisci illum.
+        </div>
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sed repellat unde.</div>
+    </div>
+    
+</body>
+</html>
